@@ -1,0 +1,72 @@
+_type: export
+__export_format: 4
+__export_date: 2020-03-29T15:30:21.918Z
+__export_source: insomnia.desktop.app:v7.1.1
+resources:
+  - _id: req_0bcf1d39a52a4854a77499d297498fe3
+    authentication: {}
+    body: {}
+    created: 1585230981653
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1585230981653
+    method: GET
+    modified: 1585246090402
+    name: Codenation
+    parameters: []
+    parentId: wrk_8a5b6636d341405a837bca716bda4c1e
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/codenation
+    _type: request
+  - _id: wrk_8a5b6636d341405a837bca716bda4c1e
+    created: 1585230938060
+    description: ""
+    modified: 1585230938060
+    name: Test Codenation
+    parentId: null
+    _type: workspace
+  - _id: req_1a6220ed384342b1a8004227c1a3d9b5
+    authentication: {}
+    body: {}
+    created: 1585237715248
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1582865938594.5
+    method: GET
+    modified: 1585245913030
+    name: Message
+    parameters: []
+    parentId: wrk_8a5b6636d341405a837bca716bda4c1e
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3333/message
+    _type: request
+  - _id: env_8f75206f037a47657c51f88dec8febc135833d39
+    color: null
+    created: 1585230938133
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1585230938134
+    modified: 1585230938133
+    name: Base Environment
+    parentId: wrk_8a5b6636d341405a837bca716bda4c1e
+    _type: environment
+  - _id: jar_8f75206f037a47657c51f88dec8febc135833d39
+    cookies: []
+    created: 1585230938148
+    modified: 1585230938148
+    name: Default Jar
+    parentId: wrk_8a5b6636d341405a837bca716bda4c1e
+    _type: cookie_jar
